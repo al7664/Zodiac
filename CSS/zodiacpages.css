@@ -15,9 +15,9 @@ body {
 .title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    font-size: clamp(40px, 5vw, 80px);
+    font-size: 80px;
     margin-top: 40px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     padding: 0;
 }
 
@@ -74,7 +74,7 @@ img {
 .sectionheading {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    font-size: clamp(32px, 4vw, 64px);
+    font-size: 64px;
 }
 
 .bottominfo {
@@ -91,7 +91,7 @@ img {
 .paragraph {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    font-size: clamp(28px, 3vw, 48px);
+    font-size: 48px;
 }
 
 .column2 ul {
@@ -101,7 +101,7 @@ img {
 
 .column2 li {
     margin-bottom: 5px;
-    font-size: clamp(28px, 3vw, 48px);
+    font-size: 48px;
     line-height: 1.5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -113,7 +113,7 @@ button {
     background-color: #ff6347;
     border: none;
     color: white;
-    font-size: clamp(24px, 2.5vw, 32px);
+    font-size: 32px;
     padding: 30px 30px;
     margin-top: 40px;
     margin-bottom: 60px;
