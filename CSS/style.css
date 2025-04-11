@@ -2,7 +2,7 @@ body {
     background-color: rgb(248, 131, 121);
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.5vw;
+    font-size: 24px;
     height: 100vh;
     margin: 0;
     display: flex;
@@ -18,8 +18,8 @@ body {
 
 #titleWrapper {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 4vw;
-    margin-bottom: 50px;
+    font-size: 64px;
+    margin-bottom: 20px; /* reduced space */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -33,12 +33,18 @@ body {
     align-items: center;
 }
 
-#inputWrapper input, #inputWrapper button {
-    font-size: 2vw;
+#inputWrapper label,
+#inputWrapper input,
+#inputWrapper button {
+    font-size: 48px; /* unified font size */
+}
+
+#inputWrapper input, 
+#inputWrapper button {
     padding: 15px;
     margin: 15px 0;
-    width: 90%;  /* Make the input box even wider */
-    max-width: 900px;  /* Increase the maximum width for a much longer box */
+    width: 90%;
+    max-width: 900px;
 }
 
 #inputWrapper button {
@@ -46,8 +52,7 @@ body {
     background-color: #ff6347;
     border: none;
     color: white;
-    font-size: 2vw;
-    padding: 20px 30px;
+    padding: 20px;
     border-radius: 8px;
     transition: background-color 0.3s;
 }
@@ -56,10 +61,8 @@ body {
     background-color: #ff4500;
 }
 
-
 #yearInput {
     padding: 10px;
-    margin: 10px 0;
+    margin: 0;
     width: 200px;
-    font-size: 16px;
 }
