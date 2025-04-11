@@ -15,9 +15,9 @@ body {
 .title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 80px;
+    font-size: 5rem; /* 80px */
     margin-top: 40px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding: 0;
 }
 
@@ -74,7 +74,7 @@ img {
 .sectionheading {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 64px;
+    font-size: 4rem; /* 64px */
 }
 
 .bottominfo {
@@ -91,7 +91,7 @@ img {
 .paragraph {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 48px;
+    font-size: 3rem; /* 48px */
 }
 
 .column2 ul {
@@ -101,7 +101,7 @@ img {
 
 .column2 li {
     margin-bottom: 5px;
-    font-size: 48px;
+    font-size: 3rem; /* 48px */
     line-height: 1.5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -113,7 +113,7 @@ button {
     background-color: #ff6347;
     border: none;
     color: white;
-    font-size: 32px;
+    font-size: 2rem; /* 32px */
     padding: 30px 30px;
     margin-top: 40px;
     margin-bottom: 60px;
@@ -123,4 +123,24 @@ button {
 
 button:hover {
     background-color: #ff4500;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .sectionheading {
+        font-size: 2.5rem;
+    }
+
+    .paragraph, .column2 li {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
 }
