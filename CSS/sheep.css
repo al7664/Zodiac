@@ -1,0 +1,119 @@
+html, 
+body {
+    background-color: rgb(248, 131, 121);
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.5em; /* global shrink */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 5em;
+    margin-top: 40px;   
+    margin-bottom: 30px;
+}
+
+.title h1 {
+    margin: 0;
+    color: white;
+}
+
+/* Main Content */
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 30px;
+    margin-bottom: 30px;  /* equal space below */
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 12px solid rgb(250, 189, 185);
+    border-radius: 0; /* sharp corners */
+}
+
+.column1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: 0;
+}
+
+.column2 {
+    text-align: left;
+    padding-left: 30px;
+}
+
+/* Headings */
+.sectionheading {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+.paragraph {
+    font-size: 2.5em; /* matches input label size */
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+.column2 ul {
+    padding-left: 30px;
+    margin: 7.5px 0;
+}
+
+.column2 li {
+    font-size: 2.5em;
+    line-height: 1.5;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+/* Bottom Info Box */
+.bottominfo {
+    width: 80%;
+    padding: 15px;
+    border: 12px solid rgb(250, 189, 185);
+    color: white;
+    margin-bottom: 30px; /* equal space below */
+    border-radius: 0; /* sharp corners */
+}
+
+/* Button */
+button {
+    cursor: pointer;
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    font-size: 2/5em;
+    padding: 15px 15px;
+    margin-bottom: 50px; /* final breathing room from page bottom */
+    border-radius: 0; /* sharp corners */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
