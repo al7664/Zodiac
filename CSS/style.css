@@ -69,3 +69,35 @@ body {
     margin: 0px;
     width: 150px;
 }
+
+/* Responsive Layout for smaller screens */
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;   /* stack columns vertically */
+        align-items: center;
+        gap: 20px;                /* smaller gap */
+        width: 90%;               /* more natural on phones */
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 100%;              /* images fill width nicely */
+    }
+
+    .column2 {
+        padding-left: 0;          /* no weird side padding */
+        text-align: center;       /* better for narrow screens */
+    }
+
+    .bottominfo {
+        width: 90%;               /* shrink width for phone screens */
+        margin-bottom: 20px;
+    }
+
+    button {
+        width: 90%;               /* buttons fill width naturally */
+        max-width: 400px;         /* still capped size */
+    }
+}
+
